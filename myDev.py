@@ -88,7 +88,7 @@ class Person(object):
     def get_age(self):
         return dateOfBirth
     
-
+#Student inherits from Person class.
 class Student(Person):
     def __init__(self,name,dateOfBirth,courseNames):
         super().__init__(name,dateOfBirth)
@@ -97,4 +97,6 @@ class Student(Person):
         return courseNames
     def speak():
         print("I'm so tired!")
+        
+    
         
